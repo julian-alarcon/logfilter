@@ -1,0 +1,7 @@
+22:01:25.648 [http-nio-8080-exec-54] WARN  org.apache.solr.core.SolrCore - [ga] warning line
+22:01:25.648 [http-nio-8080-exec-64] ERROR  org.apache.solr.core.SolrCore - [ga] error line
+22:01:25.648 [http-nio-8080-exec-64] ERROR  org.apache.solr.core.SolrCore - [ga] error line
+22:01:25.648 [http-nio-8080-exec-54] WARN  org.apache.solr.core.SolrCore - [ga] warning line
+22:01:25.720 [http-nio-8080-exec-30] DEBUG  org.apache.solr.core.SolrCore - [ga] debug line
+22:01:25.720 [http-nio-8080-exec-30] DEBUG  org.apache.solr.core.SolrCore - [ga] debug line
+22:01:25.720 [http-nio-8080-exec-30] INFO  org.apache.solr.core.SolrCore - [ga] info line
