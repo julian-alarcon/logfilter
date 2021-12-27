@@ -9,8 +9,9 @@ import (
 	"strings"
 )
 
+// Main process
 func main() {
-	debugLevels := []string{"ERROR", "WARN", "INFO", "DEBUG"}
+	debugLevels := []string{"ERROR", "WARN", "INFO", "DEBUG"} //Debug levels
 	logPath := flag.String("logPath", "file.log", "Path of the log file to analyze")
 	debugLevel := flag.Int("debugLevel", 1, "Debug level. Valid numbers are 1=ERROR, 2=ERROR+WARN, 3=ERROR+WARN+INFO, 4=3=ERROR+WARN+INFO")
 	flag.Parse()
@@ -25,7 +26,7 @@ func main() {
 		if err != nil {
 			break
 		}
-		if *debugLevel >= 1 && *debugLevel <= (len(debugLevels)) {
+		if *debugLevel >= 1 && *debugLevel <= (len(debugLevels)) { // Review debugLevel
 			for i := 0; i <= (*debugLevel - 1); i++ {
 				if strings.Contains(logString, debugLevels[i]) {
 					fmt.Print(logString)
